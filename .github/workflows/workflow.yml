@@ -4,7 +4,7 @@ on: push
 
 jobs:
   build:
-    runs-ob: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - run: make setup
       - run: make test
