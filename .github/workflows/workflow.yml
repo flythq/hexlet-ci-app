@@ -6,7 +6,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - run: make setup
+      - name: setup
+        run: make install build
       - run: make test
       - run: make lint
 
