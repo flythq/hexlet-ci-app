@@ -1,4 +1,5 @@
 setup: install build
+	@echo "✅ Setup completed"
 
 install:
 	npm install
