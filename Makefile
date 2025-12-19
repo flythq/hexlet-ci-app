@@ -1,5 +1,5 @@
 setup: install build
-	@echo "✅ Setup completed"
+	@echo "Setup completed"
 
 install:
 	npm install
@@ -16,4 +16,4 @@ test:
 lint:
 	npx eslint .
 
-.PHONY: build
+.PHONY: setup install build start test lint
